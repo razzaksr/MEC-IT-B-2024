@@ -303,4 +303,4 @@ loop1: outer loop>> start, end, iter
 
 task 3: find prime numbers within the given range
  
-task 4: 
+task 4: fill seats in the roller coaster of total availability 10 rows, 2 seats/row however only 10 persons are standing the queue so make them to seat by occupy alternate row and print the chart
