@@ -1,0 +1,306 @@
+C Programming for IT - B
+
+Razak Mohamed S
+
+Programming:
+	building a software
+	automate the process or hardware
+	instructions to the machine or software
+
+languages:
+	C, Python>> IOT
+
+data process
+operations
+
+Banking:
+data:
+	accountNumber, accountBalance, ifscCode
+operations:
+	withdraw
+	deposit
+	transfer
+	pay bills
+	recharge
+	bookings
+
+
+Disney hot star:
+data:
+mobileNumber, email, password, subscription
+Operations:
+watching movie
+web series
+
+Swayam:
+data:
+education details, full name, email, address
+Operations:
+online class
+watching videos
+quiz/ assignment
+
+
+
+flow:
+
+cheque leaf
+data filling>> accountNumber, date, amount, signature
+
+
+
+Payment transfer:
+data:
+qr code/ mobile number, passcode/ authentication, amount, upiPinCode, bank details
+
+operations:
+validate pin/ authorization
+validate upi pin
+balance check
+
+
+Software:
+system software: c, python, cpp
+eg: os, compilers, consoles, atm, firm ware, embedded 
+application software: process automation
+eg:
+gmail, vlc, games, gpay, 
+
+java, python, c#, php, dart, java script,....
+
+C Language: 
+structured oriented
+top down approach
+
+comment section
+headers section>> permission>> #
+void greetings();//user fun declaration:
+//main section
+void main(){
+// code for specific process
+}
+void greetings(){
+// code for specific logic
+}
+
+
+tools:
+online compilers
+turbo
+
+Integrated Development Environment's:
+vs code
+sublime text
+code blocks
+eclipse
+.
+.
+
+compiler:
+turbo
+gcc
+
+to call any function it requires prototype/ definition/ include
+
+
+choosing vs code:
+folder>> rename
+vs code>> file>> open folder>> select folder
+to create C file:
+new>> file>> filename.c
+to enable auto save:
+file>> auto save
+
+compile:
+gcc filename.c
+run:
+./a.exe
+
+tokens:
+1. comments: description about line/ block
+// single line
+/*
+multi
+line
+comment
+*/
+
+2. keywords: reserved words which used to build the compilers with pre defined meaning
+eg: return, for, struct, while, break
+
+3. separator:
+space , {} ; ()
+
+4. identifiers: user defined name with custom meaning
+data/ variable
+operations/ functions:
+
+do's		: alphabet, alpha78bet, _alphabet, _56789alphabet, alphabetSeries, alphabet_series
+
+dont's	: alpha bet, 8765alphabet, alpha_&*bet, continue, 
+
+5. data types: define the size and format of variable
+primitive	: int(4), float(4), double(8), char(1)
+derived/grouping	: array, pointers
+user defined	: struct, union, Enum
+
+6. escape sequences:
+\n>>new line, \b>> backspace, \t>> tab
+
+7. control string/ format specifier:
+%d>> int, %lf>> double, %f>> float, %ld>> long int
+%c>> char, %s>> char array/string
+
+8. Operators:
+arithmetic	+ - / * %
+bitwise		& | ^ >> <<
+unary		++ --
+short hand	+= -= *= /= >>= |=
+
+relational	> >= < <= == !=
+logical		&& || !
+
+0 1
+true/ false
+
+RAM:
+
+Compile time memory:
+	stack:
+		printf>> pop
+		printf>> pop
+
+	data segments: variables
+Runtime memory:
+	heap>> dynamic memory variables
+			malloc, calloc, realloc, free
+
+
+char array/ String:
+%s>> format specifier
+
+size 10:
+index 0,1,2,3,4,5,6,7,8,9
+
+last index reserved for '\0'
+
+task 1:
+flipkart order: 
+name, address, purchaseMode,productName, amount, contact
+acknowledgement of purchase
+
+task 2:
+FD calculator: principalAmount, rateOfInterest, maturityAmount, duration
+
+unary operator:
+++		>> value+1
+--		>> value-1
+
+prefix	>> operator_VAR:
+	result will be obtained in the same spot
+postfix	>> VAR_operator:
+	result will be obtained in the next usage
+
+
+BUDMAS/ BODMAS
+
+    int maxi=12, mini=15;
+
+(maxi*=2)-(--mini)/(mini+=5)
+	24 - 19 / 19>> 23
+
+
+Control statements:
+if>>  
+== >= <= !
+int, float, string
+switch:
+char/ int
+== ||
+
+https://github.com/razzaksr/MEC-IT-B-2024
+
+task 1:
+theatre ticket booking for the movie
+condition 1: time
+condition 2: tickets
+condition 3: price against number of tickets>>pay
+
+task 2:
+bus ticket booking among 4 destination(Madurai, kovai, Bengaluru, chennai)
+condition1: destination name
+condition2: bengaluru>> price against class
+			eg: 200 for seater, 500 for AC, 700 for Sleeper
+
+
+task 1: BMI calculator
+
+
+Loop Statements:
+	repeat>> reduce same code to be written multiple times
+	to reduce complexity
+
+properties: can be controlled by one or more variable/ condition	
+	start		>> initialization
+	end			>> condition
+	step up		>> iteration
+
+	
+generate series
+real time example
+
+types:
+for(init;cond;iter){
+// logic
+}
+
+init
+while(cond){
+// logic
+// iter
+}
+
+init
+do{
+// logic
+iter
+}while(cond);
+
+task 1:
+distribute wheat of stock 49kg from ration shop 1kg for one rice type card irrespective with family members.
+
+linear iteration>> couldn't guess the no of repeat
+
+linear and fixed amount of repeat
+
+task 2:
+check usage of your mobile data at the end of month since the subscribed package is 1.5gb/per day which eventually 45gb/month however enter the usage capacity of every day then print utilized data, non utilized data at the end
+
+
+task 3:
+collect the 40 students gpa and find number of student who got 8.5 or greater
+task 4:
+collect the 50 students primary skill find number of people who has skill of "data analytics" and inform them they are recruited
+task 5: SIP Calculator
+task 6: SWP Calculator
+task 7:
+clearance sale with number of stocks is 120
+
+2000,5000,100,1340,900>> find number of credits
+
+
+task 1: find min and max available balance value in your recent 20 transactions
+
+task 2: Recursive Deposit calculator
+
+
+Nested Loop:
+loop1: outer loop>> start, end, iter
+	body/ logic/ repeat1
+	loop2: nested loop>> start, end, iter
+		body/ logic/ repeat2
+
+
+task 3: find prime numbers within the given range
+ 
+task 4: 
