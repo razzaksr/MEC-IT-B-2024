@@ -363,5 +363,20 @@ calories
 task 4:
 create header file health.h where create BMI calculator function, BMR calculator function then include that header with another c program and call those in that main 
 
+BMR:
+For men:
+BMR = 10*w + 6.25*H - 5*A + 5
+800+975-160+5
+For women:
+BMR = 10*W + 6.25*H - 5*A - 161
+470+1012.5-95-161
+
 task 5:
 create header file deposit.h where create RD, FD calculator functions then call in another c program main via including it
+
+task 6:(optional using header)
+personal loan calculator
+home loan calculator
+gold loan calculator
+
+main
