@@ -359,3 +359,9 @@ print the Fibonacci series of given range using function with param and no retur
 task 3: find the BMR using function
 h,w,a
 calories
+
+task 4:
+create header file health.h where create BMI calculator function, BMR calculator function then include that header with another c program and call those in that main 
+
+task 5:
+create header file deposit.h where create RD, FD calculator functions then call in another c program main via including it
