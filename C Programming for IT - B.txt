@@ -304,3 +304,45 @@ loop1: outer loop>> start, end, iter
 task 3: find prime numbers within the given range
  
 task 4: fill seats in the roller coaster of total availability 10 rows, 2 seats/row however only 10 persons are standing the queue so make them to seat by occupy alternate row and print the chart
+
+
+Pillars of C:
+functions
+array
+pointers
+user defined types: struct, union
+files
+
+
+Functions:
+	performs certain operation in the execution time when the block has called.
+	its like loop to keep repeated code in one place which surrounded by block without any start,end,iter
+	
+Types:
+in built functions:
+printf,scanf,gets,getch,getche,putc,getchar,puts, strcmp, strcat, strlwr, strupr,.....
+
+var=getchar();// return type no param
+gets(string);
+strlen(string)// 10
+user defined functions:
+function prototype/ definition:
+syntax:
+returnType funName(paramters){
+	// specific logic
+}
+
+function call:
+in order to call the function it must be declared/ defined/ included via header file
+syntax:
+funName(argument)
+
+categories:
+1. with param and return:
+eg: strlen
+2. with param and no return:
+eg: scanf, gets, printf
+3. without param and no return:
+main
+4. without param and return:
+eg: getchar, getch
