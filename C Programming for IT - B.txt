@@ -346,3 +346,16 @@ eg: scanf, gets, printf
 main
 4. without param and return:
 eg: getchar, getch
+
+
+task 1:
+find the given number prime or not using function with returntype and parameter
+
+task 2:
+print the Fibonacci series of given range using function with param and no return
+5>> 0 1 1 2 3
+8>> 0 1 1 2 3 5 8 13
+
+task 3: find the BMR using function
+h,w,a
+calories
