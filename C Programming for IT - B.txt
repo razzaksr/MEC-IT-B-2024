@@ -380,3 +380,21 @@ home loan calculator
 gold loan calculator
 
 main
+
+
+parameter>> data to be passed while calling the function
+returntype>> data to be returned to the caller after function done its work
+
+paramter>> all data types, arrays, pointers, user defined types
+return types>> all data types, pointers, user defined types
+
+task 1:
+perform whether the number is Armstrong or not using function
+
+task 2:
+perform the currency converter using functions
+a. doller to rupees
+b. rupees to dollar
+
+task 3:
+find the cgpa by semester wise gpa as parameter and return cgpa to the main
