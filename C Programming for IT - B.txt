@@ -309,7 +309,9 @@ task 4: fill seats in the roller coaster of total availability 10 rows, 2 seats/
 Pillars of C:
 functions
 array
-pointers
+pointers:
+points to another static m/y(array)
+points to own dynamic m/y(heap)
 user defined types: struct, union
 files
 
@@ -390,11 +392,75 @@ return types>> all data types, pointers, user defined types
 
 task 1:
 perform whether the number is Armstrong or not using function
+eg:
+153>> 1^3 + 5^3 + 3^3>> 153
 
 task 2:
 perform the currency converter using functions
-a. doller to rupees
+a. dollar to rupees
 b. rupees to dollar
 
 task 3:
 find the cgpa by semester wise gpa as parameter and return cgpa to the main
+
+// local varibales
+fun1(paramter){
+var
+}
+
+fun2(){}
+fun3(){}
+main(){}
+
+
+Recursive functions:
+though recursive can call by itself it has to be called once from main
+
+fun1(){
+fun1()// recursive call
+}
+
+main(){}
+
+task 4:
+print the even numbers in the given range using recursive function
+
+
+Array:
+	sequence of data stored under one container, each referred with index which starts from 0 to N
+	collection/group of similar formats
+	reduce time complexity to access the multiple data 
+	fixed
+
+problem:
+find max cgpa among 10 students
+10 variables>> 40 bytes
+s1....s10
+s1>> s2,s3,s4,......s10>> check s1 is top
+s2>> s3,s4,s5.....s10>> check s2 is top
+.
+.
+.
+.
+
+
+student>> 10>> 40bytes
+[size]
+index>> 0...size-1
+
+Operations:
+CRUD
+
+syntax:
+type variable[size];
+type variable[size]={v1,v2,v3,....};
+
+
+Pointer:
+variable which holds the address another
+type *variable;
+variable=&var;
+
+task 5:
+Assume you have BMI of 10 people using double type array, find the 10 members category among the underweight, overweight, obese, normal
+find the number of each category (optional)
