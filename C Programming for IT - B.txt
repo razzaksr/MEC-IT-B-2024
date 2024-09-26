@@ -464,3 +464,19 @@ variable=&var;
 task 5:
 Assume you have BMI of 10 people using double type array, find the 10 members category among the underweight, overweight, obese, normal
 find the number of each category (optional)
+
+array operations:
+task 1:
+create double array of size 20 which holder current balance of employees among find how many are not maintaining the minimum balance of 5000 then deduct rs.50 of penalty in their account
+
+task 2:
+sort the asia countries in ascending order using selection sort
+{"India", "Pakistan", "Bangladesh",
+"China","Srilanka","Nepal","Russia","Mangolia","Japan","Singapore"};
+
+task 3: 
+perform the linear search on jio package tarrifs on fiber category assume 0th row is mobile 1th row is fiber
+{
+        {599,650,800,399},
+        {999,1299,399,622,150}
+    };
