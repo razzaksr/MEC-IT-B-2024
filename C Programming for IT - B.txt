@@ -468,11 +468,15 @@ find the number of each category (optional)
 array operations:
 task 1:
 create double array of size 20 which holder current balance of employees among find how many are not maintaining the minimum balance of 5000 then deduct rs.50 of penalty in their account
-
+https://github.com/razzaksr/MEC-IT-B-2024
 task 2:
 sort the asia countries in ascending order using selection sort
 {"India", "Pakistan", "Bangladesh",
 "China","Srilanka","Nepal","Russia","Mangolia","Japan","Singapore"};
+
+eg: India, india
+
+65-97>> -32
 
 task 3: 
 perform the linear search on jio package tarrifs on fiber category assume 0th row is mobile 1th row is fiber
@@ -480,3 +484,49 @@ perform the linear search on jio package tarrifs on fiber category assume 0th ro
         {599,650,800,399},
         {999,1299,399,622,150}
 };
+
+
+
+
+
+time complexity:
+omega
+theta
+big oho>> O()
+
+O(1)
+
+O(n)			>> number of occurance
+	linear search, read, update
+O(n2)		>> patterns and sorting
+
+O(logn)
+
+Binary search:
+	search happens only if the array are sorted order
+	one of divide and conquer  algorithm
+
+1. find mid
+2. mid==user return mid
+3. mid>user recursive with start, mid-1
+4. mid<user recursive with mid+1,end
+
+
+task 1:
+perform binary search on jio package tarrifs on fiber category assume 0th row is mobile 1th row is fiber
+{
+        {599,650,800,399},
+        {999,1299,399,622,150}
+};
+
+task 2:
+C Program to Find the Largest Two Numbers in a given Array 
+task 3:
+C Program to Find the Second Largest & Smallest Elements in an Array 
+task 4:
+Write a C program to count total number of duplicate elements in an array.
+task 5:
+Write a C program to find reverse of an array.
+
+
+
