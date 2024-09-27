@@ -518,15 +518,37 @@ perform binary search on jio package tarrifs on fiber category assume 0th row is
         {599,650,800,399},
         {999,1299,399,622,150}
 };
-
 task 2:
 C Program to Find the Largest Two Numbers in a given Array 
+9,81,43,12,3,874,24,34,654,2,34
+
 task 3:
 C Program to Find the Second Largest & Smallest Elements in an Array 
 task 4:
 Write a C program to count total number of duplicate elements in an array.
+eg:
+test case1:
+input: 98,45,12,65,98,10
+output: 1
+
+test case2:
+input: 65,10,67,33,10,94,10,67
+output: 2
 task 5:
 Write a C program to find reverse of an array.
 
+
+Pointers:
+dynamically creates own m/y: heap/ run time
+	individual
+	array
+
+points refers the m/y:	segments/ compile time
+	individual variable
+	array
+	function's parameter, return type
+	user defined types: struct, union
+
+variable which holds the address of another
 
 
