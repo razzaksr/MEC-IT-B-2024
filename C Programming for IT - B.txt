@@ -539,9 +539,6 @@ Write a C program to find reverse of an array.
 
 
 Pointers:
-dynamically creates own m/y: heap/ run time
-	individual
-	array
 
 points refers the m/y:	segments/ compile time
 	individual variable
@@ -551,4 +548,34 @@ points refers the m/y:	segments/ compile time
 
 variable which holds the address of another
 
+task1:
+Write a C program to count total number of even and odd elements in an array using pointers
+
+task 2:
+Write a C program to count total number of negative elements in an array using pointer.
+
+task 3:
+Write a C program to copy all elements from an array to another array using pointer.
+
+task 4:
+Write  c program to identify the common elements between two array's using pointer
+eg: 
+a1:98,23,45,64,65,88
+a2:65,38,59,56,98,23
+o/p: 98, 65
+
+
+
+dynamically creates own m/y: heap/ run time
+	individual
+	array
+
+malloc:
+	(*type)malloc(sizeof)
+calloc:
+	(*type)calloc(sizeof, capacity)
+realloc:
+	(*type)realloc(sizeof)
+free
+	free(ptr)
 
