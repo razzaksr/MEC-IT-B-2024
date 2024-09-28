@@ -555,7 +555,7 @@ task 2:
 Write a C program to count total number of negative elements in an array using pointer.
 
 task 3:
-Write a C program to copy all elements from an array to another array using pointer.
+Write a C program to copy all elements from one array to another array using pointer.
 
 task 4:
 Write  c program to identify the common elements between two array's using pointer
@@ -579,3 +579,13 @@ realloc:
 free
 	free(ptr)
 
+
+task 5:
+Dynamic array of 10 integers among sort only odd positions in descending order
+eg:
+9,23,45,64,5,88,38,59,56,98
+23,64,88,59,98
+9,98,45,88,5,64,38,59,56,23
+
+task 6:
+Dynamic array of 10 double's among perform binary search
